@@ -7,6 +7,8 @@ Application has to provide HAL for library, including:
  - state of pin that hardware receiver is connected. Signal on pin must have carrier signal filtered.
  - signal when input pin has changed state.
 
+Library can be used on any platform. Tested on AVR.
+
 ## Installation
 
 Include header to your project. Add .c file
